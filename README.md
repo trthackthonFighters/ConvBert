@@ -10,7 +10,15 @@
 ```python convert2onnx_v2.py```
 
 ### Modify the Onehot Layer 
-```python modify_onnx_gs.py ```
+```python modify_onnx_gs.py```
+
+### Build the Onehot plugin from Nvidia Hackathon Repo
+```
+git clone https://github.com/NVIDIA/trt-samples-for-hackathon-cn.git
+cd build
+make
+```
+and copy Onehot_plugin.so to Convbert folder.
 
 ### Comparison between TF inference and TRT inference
 ```python test_tf_trt_infer.py```
