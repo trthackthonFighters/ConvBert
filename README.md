@@ -15,6 +15,15 @@
 ### Comparison between TF inference and TRT inference
 ```python test_tf_trt_infer.py```
 
+### Result
+```
+tf_time= [INFO] TF  execution time 367.3338 ms
+trt_time= TRT execution time 9.16735 ms
+```
+The value is the average of inference time. The tf_time is over-estimated as it may contain the cpu time. It may need to do profiling to get an accurate value.
+
+The speed-up ratio is 40.06.
+
 
 # References
 
