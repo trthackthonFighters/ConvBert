@@ -9,6 +9,9 @@
 ### Export ONNX Model
 ```python convert2onnx_v2.py```
 
+### Modify the Onehot Layer 
+```python modify_onnx_gs.py ```
+
 ### Comparison between TF inference and TRT inference
 ```python test_tf_trt_infer.py```
 
