@@ -38,6 +38,9 @@ The speed-up ratio is 40.06.
 
 
 # References
+Get the Docker Engine with cuda and tensorflow environment:
+
+`sudo docker pull registry.cn-hangzhou.aliyuncs.com/hackathon-fighters/21.03-tf1-py3-trt:v1`
 
 Here are some great resources we benefit:
 
