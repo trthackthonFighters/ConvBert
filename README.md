@@ -20,6 +20,10 @@ make
 ```
 and copy Onehot_plugin.so to Convbert folder.
 
+Then generate the .trt file:
+```
+trtexec --onnx=ConvBert_onehot.onnx --plugins=OnehotPlugin.so --saveEngine=ConvBert_onehot.trt --verbose
+```
 ### Comparison between TF inference and TRT inference
 ```python test_tf_trt_infer.py```
 
